@@ -19,7 +19,12 @@ public class SearchNilai04 {
                 hasil = i;
                 break;
             }
+        }
+            if (hasil != -1) {
+                System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + hasil);
+            } else {
+                System.out.println("Nilai yang dicari tidak ditemukan");
             }
-            System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + hasil);
-        }  
+        }
     }
+    
